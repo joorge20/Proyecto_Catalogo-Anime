@@ -3,6 +3,7 @@ En este archivo pondre los Fragmentos de Codigo mas Significativos que e usaron 
 En el PDF Adjunto se encuentra la misma informacion pero mas detallada con mas imagenes.
 
 Se importaron a SQL Managament Studio utilizando la herramienta de importación de SQL, por lo que muchas Columnas Incluyen valores NULL y/o se pasaron con algún formato de NVARCHAR o TEXT.
+[![0Tablas](Imagenes/Select_Tablas.png)]
 
 ## Validacion Id's
 ```sql
@@ -131,7 +132,7 @@ ORDER  BY 1;
 ### Columna Duration
 Se observa que hay valores que se pueden agrupar, ya que tienen la misma duración, pero algunos se les agrega la palabra “per episode”, se quitará esta palabra para agrupar más los valores.
 Sobre el mismo query que utilice en el SELECT trabaje el UPDATE, unicamente cambiando la palabra y la condicion. 
-## Imagen
+[![0Tablas](Imagenes/Columna_Duration_1.png)]
 ```sql
 -- Quitar la palabra 'per' y poder unificar mas la columna e Duracion
 WITH duration
@@ -145,6 +146,8 @@ WITH duration
 SELECT *
 FROM   duration;
 --UPDATE duration set duration = Duracion_Correcta;
+
+
 ```
 Con la columna DURATION quise crear una columna con el Tiempo en minutos en formato INT, y no en el formato de texto de “1 hora y 20 minutos” por ejemplo que se maneja en el archivo. 
 Usando las Funciones CAST para transformar el Obtenido a Entero, TRIM para quitarle espacios que pudieran quedar, y SUBSTRING – CHARINDEX para obtener los valores separados.
