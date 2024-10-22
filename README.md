@@ -18,6 +18,13 @@ Se obtuvo el conjunto de Datos [Anime Dataset 2023](https://www.kaggle.com/datas
 En un Excel se dejó únicamente la columna ID, nombre y las columnas Watching, Completed, On_Hold y Dropped del Archivo anime-filtered.csv, para posterior unirlos en SQL.
 Se importaron a SQL Managament Studio utilizando la herramienta de importación de SQL, por lo que muchas Columnas Incluyen valores NULL y/o se pasaron con algún formato de NVARCHAR o TEXT.
 
+# Limitaciones
+Muchos datos no son 100% seguros, ya que por ejemplo los de numeros de la columna RANK no coindicen con el orden de popularidad, o de los miembros,
+Asi como los datos de las visualizaciones no son para todos los datos, la mayoria de las visualizaciones en cuanto a Score se refiere decidi trabajarlas para auqellos que tuvieran mas de 8 de calificacion,
+Tambien al tener muchos valores NULL en esos campos no se puede hacer mucho.
+
+Las columnas de Genero, License y Productora no se pueden trabajar tampoco muy bien, ya que separa por comas muchos valores dentro de la columna y no hay forma de saber cual es el principal para trabajr con ellos
+
 ## Descripcion Columnas.
 Tabla Animes (anime-dataset-2023.csv)
   -  anime_id: ID único de cada Anime.
