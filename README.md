@@ -8,7 +8,7 @@ El objetivo es poder ver indicadores sobre los Animes que estan mejor calificado
 ![Tablero Final](Imagenes/Pagina_3.png)
 # Links a Documentacion
   -  [Limpieza Datos SQL](https://github.com/joorge20/Proyecto_Catalogo-Anime/blob/main/1.%20Limpieza%20SQL.md)
-  -  Creacion Tablero Power BI
+  -  [Creacion Tablero Power BI](https://github.com/joorge20/Proyecto_Catalogo-Anime/blob/main/2.%20Dashboard_Power_BI.md)
 
 # Conjunto de Datos
 Se obtuvo el conjunto de Datos [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset) de la Plataforma Kaggle sobre las calificaciones y visualizaciones de animes de la plataforma MyAnimeList.com hasta el año 2023. El conjunto de datos incluía varias tablas de Animes y Usuarios, para este proyecto utilizare: 
