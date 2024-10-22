@@ -4,7 +4,8 @@
 De acuerdo con los datos obtenidos se limpiara la informacion utlizando *SQL* agregando y modificando columnas para posterior pasar lo mas limpio posible los datos al software de Power BI.
 Con los datos limpios, la intencion es crear un tablero interactivo que muestre datos generales de los Animes, como por ejemplo mostrar los que mejor Calificacion tienen, cuales tienen mas usuarios, cantidad de estreno por Temporada, etc.
 El objetivo es poder ver indicadores sobre los Animes que estan mejor calificados.
-
+![Tablero Final](Imagenes/Pagina_1.png)
+![Tablero Final](Imagenes/Pagina_3.png)
 # Links a Documentacion
   -  [Limpieza Datos SQL](https://github.com/joorge20/Proyecto_Catalogo-Anime/blob/main/1.%20Limpieza%20SQL.md)
   -  Creacion Tablero Power BI
@@ -52,5 +53,5 @@ Tabla Visualizaciones (anime-filtered.csv)
   - ON_HOLD: Cantidad de Personas que lo dejaron en Pausa.
   - DROPPED: Cantidad de personas que lo dejaron de Ver. 
 
-![Tablero Final](Imagenes/Pagina_1.png)
-![Tablero Final](Imagenes/Pagina_3.png)
+![Tablero Final](Imagenes/Pagina_2.png)
+![Tablero Final](Imagenes/Pagina_4.png)
