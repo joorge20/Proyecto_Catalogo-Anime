@@ -6,7 +6,7 @@ Con los datos limpios, la intencion es crear un tablero interactivo que muestre 
 El objetivo es poder ver indicadores sobre los Animes que estan mejor calificados.
 
 # Links a Documentacion
-  -  [Limpieza Datos SQL]
+  -  [Limpieza Datos SQL](https://github.com/joorge20/Proyecto_Catalogo-Anime/blob/main/1.%20Limpieza%20SQL.md)
   -  Creacion Tablero Power BI
 
 # Conjunto de Datos
