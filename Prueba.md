@@ -1,0 +1,4 @@
+```sql
+ALTER TABLE Catalogo_Animes ALTER COLUMN ANIME_ID INT;
+ALTER TABLE Visualizaciones ALTER COLUMN ANIME_ID INT;
+```
