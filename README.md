@@ -51,3 +51,6 @@ Tabla Visualizaciones (anime-filtered.csv)
   - COMPLETED: Cantidad de personas que lo terminaron de Ver.
   - ON_HOLD: Cantidad de Personas que lo dejaron en Pausa.
   - DROPPED: Cantidad de personas que lo dejaron de Ver. 
+
+![Tablero Final](Imagenes/Pagina_1.png)
+![Tablero Final](Imagenes/Pagina_3.png)
